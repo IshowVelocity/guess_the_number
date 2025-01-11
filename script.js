@@ -33,7 +33,7 @@ function validateGuess(guess) {
     prevGuess.push(guess);
     if (numGuess === 9) {
       displayGuess(guess);
-      displayMessage(`Game Over. The randoom number was ${randomNumber}`);
+      displayMessage(`Game Over. The random number was ${randomNumber}`);
       endGame();
     } else {
       displayGuess(guess);
